@@ -4,6 +4,14 @@ A lightweight extension for AUTOMATIC1111 Stable Diffusion WebUI that allows you
 
 プロンプトや Dynamic Prompts / wildcard の中から、checkpoint を一時的に切り替えるための拡張機能です。
 
+* この拡張は主に AUTOMATIC1111 WebUI 向けです。
+* Forge / ReForge / Forge Neo での動作は各バージョンに依存します。
+* Forge系環境によっては `modules.sd_models.reload_model_weights` が存在せず、checkpoint切り替え時にエラーになる場合があります。
+
+* This extension is mainly intended for AUTOMATIC1111 WebUI.
+* Forge / ReForge / Forge Neo compatibility depends on each version.
+* Some Forge-based environments may not provide `modules.sd_models.reload_model_weights`, and checkpoint switching may fail.
+
 ---
 
 # 日本語
